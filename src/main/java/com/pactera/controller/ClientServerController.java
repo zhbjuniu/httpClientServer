@@ -24,6 +24,8 @@ public class ClientServerController {
 	public String preService(HttpServletRequest req,HttpServletResponse rsp ) throws Exception {
 		
 		log.info("用户接受报文服务   start...");
+		
+		
 //		log.info("<<<<rspMessage:::"+rspMessage);
 //		Map parameterMap = req.getParameterMap();
 //		String paramJson = JSONObject.fromObject(parameterMap).toString();
